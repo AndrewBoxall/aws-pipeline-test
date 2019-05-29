@@ -1,5 +1,8 @@
-version: 0.1
+version: 0.2
 phases:
+  install:
+    commands:
+      - echo Executing empty Install Phase
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
@@ -8,3 +11,6 @@ phases:
     commands:
       - echo Build started on `date`
       - npm run build
+  post_build:
+    commands:
+      - echo Executing empty Post Build Phase
