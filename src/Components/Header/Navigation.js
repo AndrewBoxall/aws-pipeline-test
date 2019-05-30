@@ -9,7 +9,7 @@ class Navigation extends Component {
           <a href="#About" className="bookmark-link">ABOUT</a>
         </li>
         <li className="nav-item">
-          <a href="#Classes" className="bookmark-link">CLASSES</a>
+          <a href="#Classes" className="bookmark-link">CLASSESTest</a>
         </li>
         <li className="nav-item">
           <a href="#Schedule" className="bookmark-link">SCHEDULE</a>
